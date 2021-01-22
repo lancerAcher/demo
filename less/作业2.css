@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.box1 {
+  width: 1200px;
+  height: 650px;
+  background-color: #e96f30;
+  padding: 0px 100px;
+  margin: 100px auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.box1 .head {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.box1 .head a {
+  width: 160px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.box1 .head a:nth-child(2) {
+  color: #f8e71c;
+}
+.box1 .head i {
+  width: 20px;
+  height: 45px;
+  background: #ba5926;
+  color: #ddac93;
+}
+.box1 .table {
+  margin-top: 20px;
+}
+.box1 .table ul {
+  display: flex;
+  width: 1000px;
+  height: 555px;
+  justify-content: space-between;
+  align-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.box1 .table ul li {
+  width: 190px;
+  height: 270px;
+  border-radius: 3px;
+  background-color: white;
+}
+.box1 .table ul li .foot {
+  width: 158px;
+  height: 74px;
+  margin-left: 18px;
+}
+.box1 .table ul li .foot p {
+  height: 40px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.box1 .table ul li .foot h2 {
+  font-size: 25px;
+  color: #f02b2b;
+}
+.box1 .table ul li .foot h2 i {
+  font-size: 25px;
+  float: right;
+  line-height: 33px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            width: 1000px;
+            height: 1000px;
+            list-style: none;
+            align-content: stretch;
+            display: flex;
+            
+        }
+      
+        ul li:first-child{
+             flex-grow: 1;
+             background-color: goldenrod;
+
+        }
+        ul li:nth-child(2){
+            flex-grow: 3;
+            background: gray;
+        }
+        ul li:last-child{
+            flex-grow: 1;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</body>
+</html>
